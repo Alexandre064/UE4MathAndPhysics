@@ -28,18 +28,22 @@ public class NewBehaviourScript : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.C))
         {
             dragForce++;
+            Debug.Log("Drag :" + dragForce);
         }
         if (Input.GetKeyUp(KeyCode.V))
         {
             dragForce--;
+            Debug.Log("Drag :" + dragForce);
         }
         if (Input.GetKeyUp(KeyCode.B))
         {
             massForce++;
+            Debug.Log("Mass :" + massForce);
         }
         if (Input.GetKeyUp(KeyCode.N))
         {
             massForce--;
+            Debug.Log("Mass :" + massForce);
         }
     }
 }
